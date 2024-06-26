@@ -3,7 +3,7 @@ import Star from "../assets/Star";
 function Hero() {
   return (
     <div
-      className="hero flex flex-col md:flex-row-reverse pt-[3.5rem] px-10
+      className="hero flex flex-col md:flex-row-reverse pt-[3.5rem] px-12
     sm:pb-[2.5rem] sm:justify-center sm:items-center sm:pt-[1.5rem] 
     md:pt-[1.5rem] md:gap-6 md:pt-20 
    "
