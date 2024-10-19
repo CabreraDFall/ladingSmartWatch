@@ -3,16 +3,17 @@ import Star from "../assets/Star";
 function Hero() {
   return (
     <div
-      className="hero flex flex-col md:flex-row-reverse pt-[3.5rem] px-10
+      className="hero flex flex-col md:flex-row-reverse pt-[3.5rem] px-10 
     sm:pb-[2.5rem] sm:justify-center sm:items-center sm:pt-[1.5rem] 
-    md:pt-[1.5rem] md:gap-6 md:pt-20 
+    md:pt-[1.5rem] md:gap-6 md:pt-20 md:my-5
    "
     >
       <div
-        className=" imagen flex justify-center items-center  relative before:content-[''] 
+        className=" imagen flex justify-center items-center relative before:content-[''] 
                     before:border-4 before:absolute before:border-sky-500 before:w-[65%] before:h-[65%] before:top-[-2rem] before:left-[-1rem] before:z-[2] before:rounded-[1rem]
                     after:absolute after:bg-[#dc6640] after:w-[65%] after:h-[65%] after:bottom-[-2rem] after:right-[-1rem] after:z-[2] after:rounded-[1rem]
                     sm:h-[80%] 
+                    md:w-[40%]
                     lg:before:w-[45%] lg:before:left-[1rem] lg:after:right-[1rem] lg:after:w-[45%]
                     xl:before:w-[35%] xl:after:w-[35%] xl:before:left-[6rem] xl:after:right-[6rem]
                     
@@ -105,9 +106,9 @@ function Hero() {
           md:justify-start md:gap-1"
         >
           Already a member of our company?
-          <a href="/#" className="text-[#fb2f29] font-semibold text-[0.85rem] ">
+          {/* <a href="/#" className="text-[#fb2f29] font-semibold text-[0.85rem] ">
             Sign in
-          </a>
+          </a> */}
         </span>
       </div>
     </div>
