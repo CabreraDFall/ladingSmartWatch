@@ -1,5 +1,5 @@
-function Feature({ orientation, data }) {
-  const reverse = orientation === "reverse" ? "flex-row-reverse" : "";
+function Feature({ data }) {
+  const reverse = data.orientation === "reverse" ? "flex-row-reverse" : "";
 
   return (
     <div className={`flex items-center mx-10 ${reverse}`}>
@@ -7,7 +7,7 @@ function Feature({ orientation, data }) {
         <img
           alt={data.title || "Image"}
           srcSet={data.image}
-          className="w-full h-auto object-contain"
+          className=" h-auto object-contain"
         />
       </div>
       <div className="flex-1 p-4">
