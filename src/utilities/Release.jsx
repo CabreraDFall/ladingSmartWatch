@@ -1,4 +1,4 @@
-function Test({ data }) {
+function Release({ data }) {
   const reverse = data.orientation === "reverse" ? "flex-row-reverse" : "";
 
   return (
@@ -24,4 +24,4 @@ function Test({ data }) {
   );
 }
 
-export default Test;
+export default Release;
