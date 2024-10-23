@@ -1,6 +1,6 @@
 function Oferts() {
   return (
-    <div className="flex flex-col-reverse h-[20rem] bg-[#fcedc6] relative my-[8rem] rounded-lg  items-center lg:items-start md:py-[-5rem]">
+    <div className="flex flex-col-reverse h-[20rem] bg-[#fcedc6] relative my-[4rem] rounded-lg  items-center lg:items-start md:py-[-5rem]">
       <div className="left flex flex-col md:flex-1 justify-center px-[2rem] items-center md:items-left py-2 ">
         <p className="title text-[1.5rem] md:text-[2.5rem] font-bold">
           Sale Up to 50% offer

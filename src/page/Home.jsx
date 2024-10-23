@@ -1,4 +1,5 @@
 import Featered from "../components/Featered";
+import Footer from "../components/Footer";
 import Header from "../components/Header";
 import Hero from "../components/Hero";
 import Icons from "../components/Icons";
@@ -12,6 +13,7 @@ function Home() {
       <Icons />
       <Featered />
       <Oferts />
+      <Footer />
     </div>
   );
 }

@@ -4,7 +4,7 @@ function Feature({ orientation, data }) {
   return (
     <div className={`flex items-center mx-10 ${reverse}`}>
       <div className="flex-1 flex justify-center items-center">
-        <img alt="Smart FT" srcSet={"../img/smart-ft.png"} />
+        <img alt="Smart FT" srcSet={data.image} />
       </div>
       <div className="flex-1 p-4 ">
         <div className="mr-10">
