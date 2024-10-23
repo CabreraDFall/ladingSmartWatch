@@ -6,7 +6,7 @@ function Featered() {
   return (
     <div className="flex-row py-8">
       {FEATURESRELEASE.map((feature, index) => {
-        return <Test key={index} />;
+        return <Test key={index} data={feature} />;
       })}
     </div>
   );
