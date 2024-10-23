@@ -1,10 +1,11 @@
 import { FEATURESRELEASE } from "../dB/FeaturesRelease";
+import Feature from "../utilitys/feature";
 
 function Featered() {
   return (
     <div className="flex-row py-8">
       {FEATURESRELEASE.map((feature, index) => {
-        return <div key={index}> holas 3</div>;
+        return <Feature key={index} />;
       })}
     </div>
   );
